@@ -1,0 +1,16 @@
+h1 {
+    font-size: xxx-large;
+    color: lavender;
+
+}
+h2 {
+    font-style: oblique;
+    color: mediumpurple;
+}
+a:hover {
+    color: brown;
+    size: auto;
+}
+a:visited {
+    color: aquamarine;
+}
