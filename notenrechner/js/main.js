@@ -24,6 +24,7 @@ function tfAuslesen() {
     ergebnis = summe/anzahlNoten;
 
 
+
     document.getElementById("ausgabe").innerHTML = ergebnis
 
     if (ergebnis < 6) {
