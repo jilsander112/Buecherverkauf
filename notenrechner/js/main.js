@@ -11,7 +11,7 @@ function tfAuslesen() {
 
     n1 = parseInt(document.getElementById("tfNote1").value);
     n2 = parseInt(document.getElementById("tfNote2").value);
-    n3 = parseInt(document.getElementById("tfNote3").value);
+    n3 = parseInt(document.getElementById("tfNote3").value); // Auslesen eines Notemfeldes und Konvertierung in
     n4 = parseInt(document.getElementById("tfNote4").value);
     n5 = parseInt(document.getElementById("tfNote5").value);
 
@@ -41,7 +41,7 @@ function tfAuslesen() {
     }
 
 }
-
+// Aenderung der Farbe des Ergebnisses
 
 function eingabeUeberpruefen(punkte) {
     if (isNaN(punkte)){
@@ -51,3 +51,5 @@ function eingabeUeberpruefen(punkte) {
     summe = summe + punkte;
 }
 }
+
+// Ergebnis ausrechnen
