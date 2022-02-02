@@ -3,6 +3,8 @@ let summe = 0;
 let anzahlNoten = 0;
 let ergebnis;
 
+//refactor auf -> notenAuslesen()
+
 function tfAuslesen() {
     anzahlNoten = 0
     summe = 0
